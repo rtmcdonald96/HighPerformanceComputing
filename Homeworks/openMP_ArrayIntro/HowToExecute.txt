@@ -1,0 +1,5 @@
+In order to execute the program. 
+You must first compile the program by opening a terminal and being in the same directory as the HW4.cpp file.
+Next enter the following command into the terminal window "g++ -o HW4 -fopenmp HW4.cpp".
+After the program has been compiled it can be ran using the command "./HW4". 
+The number of threads being used by OpenMP is specified within the cpp file using the omp_set_num_threads(); command.
