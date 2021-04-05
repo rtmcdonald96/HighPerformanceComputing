@@ -1,0 +1,8 @@
+In order to execute the program. 
+You must first compile the program by opening a terminal and being in the same directory as the homework3.cpp file.
+Next enter the following command into the terminal window "mpic++ Homework3.cpp -o Homework3".
+After the program has been compiled it can be ran using the command "mpirun -n 4 Homework3".
+In the command above the number 4 can be replaced with any other number to change the number of processes. 
+The program will output a message to the terminal showing which indexes of the array would be allocated to which processes. 
+Each of the integers randomly generated are positive, odd values between 1 and 100. 
+The random number generation is seeded different for each process in order to ensure the numbers are randomly generated for each process.
