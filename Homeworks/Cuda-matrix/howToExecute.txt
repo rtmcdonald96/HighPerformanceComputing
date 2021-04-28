@@ -1,0 +1,6 @@
+To Execute:
+1. Open CMD
+2. Navigate to folder containing corresponding problem.cu file
+3. Run the command "nvcc homework6.cu -o homework6"
+4. a. If on windows simply double click the homework6.exe file that was generated using nvcc.
+   b. If on linux run the command "./homework6" where x is replaced with the corresponding problem number.
